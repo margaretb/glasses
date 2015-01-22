@@ -11,20 +11,15 @@ get '/' do
 end
 
 
-get '/men' do
-
-	@title = "Men"
-	erb :men
-end
 
 get '/thanks' do
 	@title = "Thank You"
 	erb :thanks
 end
 
-get '/women' do
-	@title = "women"
-	erb :women
+get '/glasses' do
+	@title = "glasses"
+	erb :glasses
 end
 
 get '/contact' do
