@@ -1,1 +1,28 @@
-some more
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Awesome Contact Form</title>
+</head>
+<body>
+	
+	<%links = {"Men" => "/men", "Women" => "/women", "Home"=>"/" , "Contact"=>"/contact"}%>
+		<nav>
+			<ul>
+				<%for key, value in links do%>
+
+					<li><a href="<%= value %>"><%=key %></a></li>
+
+				<%end%>
+
+			</ul>
+		</nav>
+
+
+	<%=yield%>
+
+  
+
+	
+</body>
+</html>
