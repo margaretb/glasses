@@ -2,23 +2,28 @@ require 'sinatra'
 require 'mandrill'
 
 get '/' do
+	@title = "home"
 	erb :home
 end
 
 
 get '/men' do
+	@title = "Men"
 	erb :men
 end
 
 get '/thanks' do
+	@title = "Thank You"
 	erb :thanks
 end
 
 get '/women' do
+	@title = "women"
 	erb :women
 end
 
 get '/contact' do
+	@title = "contact"
 	erb :contact
 end
 
