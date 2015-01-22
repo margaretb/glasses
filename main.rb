@@ -1,51 +1,47 @@
 require 'sinatra'
-require 'mandrill'
 
+require_relative "./methods.rb"
 get '/' do
-  erb :home
+
+	@title = "home"
+	erb :home
+
+  
+
 end
 
 
 get '/men' do
-  erb :men
+
+	@title = "Men"
+	erb :men
 end
 
 get '/thanks' do
-  erb :thanks
+	@title = "Thank You"
+	erb :thanks
 end
 
 get '/women' do
-  erb :women
+	@title = "women"
+	erb :women
 end
 
 get '/contact' do
-  erb :contact
+	@title = "contact"
+	erb :contact
+  	
 end
 
+
+
 post '/contact' do
-    
-    contact_email=params["email"]
-    contact_name=params["name"]
+    contact_email = params["email"]
+    contact_name = params["name"]
+	email_body = "We received your message"
+	
+	send_email(contact_name, contact_email,  email_body)
 
-    email_body= "We received your message"
-
-
-    m = Mandrill::API.new
-    message = {  
-     :subject => "Thanks for your email ",  
-     :from_name => "Jim",  
-     :text => email_body,  
-     :to=>[  
-       {  
-         :email=> contact_email,
-         :name=> contact_name,  
-       }  
-     ],  
-     :html=>"<html><h1>Hi <strong>#{email_body}</strong>, how are you?</h1></html>",  
-     :from_email=>"sender@yourdomain.com"  
-    }  
-    sending = m.messages.send message
-    puts sending
-  redirect to ('/thanks')
+ 	redirect to('/thanks')
 
 end
