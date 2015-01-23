@@ -2,13 +2,9 @@ require 'sinatra'
 
 require_relative "./methods.rb"
 get '/' do
-
-	@title = "home"
-	erb :home
-
-  
-
-end
+		@title = "home"
+		erb :home
+	end
 
 
 
@@ -25,8 +21,7 @@ end
 get '/contact' do
 	@title = "contact"
 	erb :contact
-  	
-end
+ 	end
 
 
 
