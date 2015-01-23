@@ -62,6 +62,7 @@ header{
 #cat_eyes {
   text-align: center;
   height:400px;
+  margin-top: 60px;
 }
 #cat_image {
  opacity:0;
@@ -73,6 +74,7 @@ header{
 #our_story{
   margin-left: 185px;
   width:450px;
+  margin-top: -75px;
 
 }
  
