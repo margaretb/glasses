@@ -6,23 +6,35 @@ nav{
   position: absolute;
   right: 20px;
   margin-top: 20px;
+
+}
+nav li a:hover{
+  color: #FF9900;
+  background-color: #333;
+  
+  -moz-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
+  -webkit-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
+  transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
+  z-index: 1000;
 }
 
 a {
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.3em;
+  color:#ffffff;
+
 }
 
-
 a:visited {
-  color: #7A2952;
+/*  color: #7A2952;*/
 }
 
 nav ul li{
   display: inline-block;
   margin-right: 15px;
   text-decoration: none;
+ 
 }
 
 #logo{
@@ -30,10 +42,17 @@ nav ul li{
   font-family: 'Abril Fatface', cursive;
   color: #fff;
   letter-spacing: 4px;
+  border-bottom:2px dotted white;
+  
+}
+
+#logo h1{
+    margin-bottom: 0px;
+
 }
 
 header{
-  background-color: #666666;
+  background-color: #886666;
   width: 100%;
   height: 100px;
   padding-left: 20px;
@@ -42,12 +61,55 @@ header{
 
 #cat_eyes {
   text-align: center;
+  height:400px;
 }
+
+
+#our_story{
+  margin-left: 185px;
+  width:450px;
+
+}
+ 
+ #our_story h2{
+color:#886666;
+ }
+
+ #our_story p{
+
+  line-height: 25px;
+ }
+
+/*******FOOTER******/
 
 footer{
   text-align: center;
-
+  clear: all;
+  height: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 20px;
 }
 
+/********IMG GALLERY********/
 
+.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
 
+#gallery {
+    width: 50%;
+    overflow:auto;
+    margin:0 auto;
+}
+
+.img img {
+    display: inline-block;
+    margin: 5px;
+}
