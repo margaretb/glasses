@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
 
-gem 'sinatra'
+source 'http://rubygems.org'
 gem 'mandrill-api'
+gem 'sinatra'

@@ -8,6 +8,15 @@ nav{
   margin-top: 20px;
 
 }
+nav li a:hover{
+  color: #FF9900;
+  background-color: #333;
+  
+  -moz-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
+  -webkit-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
+  transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
+  z-index: 1000;
+}
 
 a {
   text-decoration: none;
@@ -50,7 +59,6 @@ header{
   padding-right: 20px;
 }
 
-/*******HOME PAGE*******/
 #cat_eyes {
   text-align: center;
   height:400px;
@@ -73,6 +81,9 @@ color:#886666;
  }
 
 /*******FOOTER******/
+
+
+
 footer{
   text-align: center;
 
