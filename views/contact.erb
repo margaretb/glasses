@@ -1,24 +1,13 @@
-<h1>Please send us your form!</h1>
+<h1>We want to hear from you!</h1>
 
-<form method="POST" action="/contact"
-	<p>
-		<form method="POST" action="/contact">
-	<p>
-		<label for="name">Name</label>
-		<input name="name" type="text"/>
-	</p>
+<form method="POST" action="/contact">
+	
+	<input type="text" placeholder="Name" name="name" required>
 
-	<p>
-		<label for="email">Email</label>
-		<input name="email" type="text"/>
-	</p>
+  <input type="email" placeholder="Email" name="email" required>
 
-	<p>
-		<label for="message>">Message</label>
-		<textarea name="message"> </textarea>
+  <textarea placeholder="Message" name="message" required></textarea>
 
-	</p>
-
-	<p><input type="submit"></p>
+  <input type="submit" value="Send">
 
 </form>
