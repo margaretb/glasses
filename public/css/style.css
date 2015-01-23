@@ -1,3 +1,69 @@
+ #loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  opacity: 1;
+  }
+  .loader-curtain {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 1000;
+  }
+
+
+#preload-line,
+#preload-words {
+  color: #c7c7c7;
+  font-size: 90px;
+  font-family: sans-serif;
+  display: inline-block;
+  position: relative;
+  z-index: 1001;
+}
+
+
+.loaded {
+  }
+  #loader {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  }
+  
+  #loader-wrapper {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s 0.2s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.5s 0.2s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  }
+  
+  #preload-line,
+  #preload-words {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  }
+}
+
+#preload-words .fadeIn,
+#preload-words .fadeOut {
+  -webkit-animation-duration: 0s;
+  animation-duration: 0s;
+  -webkit-animation-delay: 0s;
+  -animation-delay: 0s;
+}
+
+
+
+
+
+
 body{
   margin: 0;
 }
@@ -54,7 +120,6 @@ header{
 #cat_eyes {
   text-align: center;
 }
-
 
 
 footer{

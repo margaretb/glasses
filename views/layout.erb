@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><%=@title%></title>
+	<script type="text/javascript" src ="js/script.js"></script>
 	<link rel="stylesheet" type="css/text" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
@@ -10,8 +11,10 @@
 <body>
 	
 	<%links = {"Home"=>"/", "Glasses" => "/glasses", "Contact"=>"/contact"}%>
-	<header>	
-		
+	<header>
+	
+
+  </div>
 		<div id="logo">
 			<h1>Frames For Dames</h1>
 		</div>
@@ -25,7 +28,7 @@
 
 			</ul>
 		</nav>
-
+    </header>
 	<%=yield%>
 	<footer>   
 		<a href="www.facebook.com"><img src="images/facebook-wrap.png" alt="Facebooklogo" class="social-icon"></a>
