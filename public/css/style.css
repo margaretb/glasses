@@ -5,8 +5,6 @@ body{
 nav{
   position: absolute;
   right: 20px;
-
-
 }
 
 nav li a{
@@ -19,12 +17,11 @@ nav li a{
   display: inline-block;  
   border:2px solid white;
 
-  
-  
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease-in-out;
 }
+
 nav li a:hover{
   color: #fff;
   background-color: #886666;
@@ -49,14 +46,9 @@ a:hover{
     color:#886666;
 }
 
-
-
-
 nav ul li:hover{
-
   background-color: #886666;
   color: #000;
-
 }
 
 nav ul li{
@@ -84,7 +76,7 @@ nav ul li{
 #logo h1{
     margin: 10px 0 0 20px;
     border-bottom:2px dotted white;
-
+    color:#fff;
 }
 
 header{
@@ -144,7 +136,7 @@ input, textarea {
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  background: darken(#f9f9f9, 10%);
+  background: darken(#886666, 10%);
   color: darken(#f9f9f9, 50%);
   
   &[type=submit] {
@@ -187,6 +179,7 @@ footer{
   text-align:center;
   clear: both;
   height:50px; 
+  color:#886666;
 }
 
 /********IMG GALLERY********/
@@ -231,4 +224,32 @@ footer{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+#hear_from_you_text{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 55px;
+  margin-bottom: 0px;
+  font-size: 2.5em;
+  color:#886666;
+}
+#form{
+  margin:-40 20 120 20;
+
+
+
+}
+#thanks{
+  margin-top:100px;
+  margin-bottom: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#886666;
+  text-align: center;
+}
+
+form{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 40px;
+
+}
 
