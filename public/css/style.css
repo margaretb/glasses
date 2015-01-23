@@ -82,32 +82,32 @@ color:#886666;
 
 /*******FOOTER******/
 
-
-
 footer{
   text-align: center;
-
+  clear: all;
+  height: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 20px;
 }
 
 /********IMG GALLERY********/
 
-div.img {
+.img {
     margin: 5px;
     padding: 5px;
     height: auto;
     width: auto;
-}
-
-div.img img {
-    display: inline-block;
-    margin: 5px;
-}
-
-
-div.desc {
+    float: left;
     text-align: center;
-    font-weight: normal;
-    width: 120px;
-    margin: 5px;
 }
+
+#gallery {
+    width: 50%;
+    overflow:auto;
+    margin:0 auto;
+}
+
+
 
