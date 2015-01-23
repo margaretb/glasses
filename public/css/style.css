@@ -5,25 +5,30 @@ body{
 nav{
   position: absolute;
   right: 20px;
-  margin-top: 20px;
+
 
 }
 
 nav li a{
-  color: #000;
+  color: #fff;
   font-size: 25px;
   text-decoration: none;
   border-radius: 5px;
+  width: 70px;
   padding: 8px 30px;
   display: inline-block;  
+  border:2px solid white;
+
+  
   
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease-in-out;
 }
 nav li a:hover{
-  color: #FF9900;
-  background-color: #333;
+  color: #fff;
+  background-color: #886666;
+  border:2px solid white;
   
   -moz-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
   -webkit-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
@@ -42,29 +47,24 @@ a {
 
 a:hover{
     color:#886666;
-;
 }
 
-a:visited {
-/*  color: #7A2952;*/
-}
+
 
 
 nav ul li:hover{
 
-  background-color: white;
+  background-color: #886666;
   color: #000;
 
 }
 
 nav ul li{
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 80px;
   text-decoration: none;
-  width:68px;
-  border:2px solid white;
+  width:70px;
   padding:6px;
-  width:68px;
   text-align:center;
   /*color:#886666;*/
   color:#ffffff;
@@ -77,12 +77,13 @@ nav ul li{
   font-family: 'Abril Fatface', cursive;
   color: #fff;
   letter-spacing: 4px;
-  border-bottom:2px dotted white;
+  font-size: 1.3em;
 }
 
 
 #logo h1{
-    margin-bottom: 0px;
+    margin: 10px 0 0 20px;
+    border-bottom:2px dotted white;
 
 }
 

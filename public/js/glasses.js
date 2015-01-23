@@ -7,7 +7,7 @@ $(document).ready(function(){
 		 opacity: 1,
 		 width:"60%"
 
-	}, 4000);
+	}, 3000);
 
 
 });
