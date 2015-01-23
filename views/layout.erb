@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Awesome Contact Form</title>
+	<title><%=@title%></title>
+	<link rel="stylesheet" type="css/text" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	
-	<%links = {"Men" => "/men", "Women" => "/women", "Home"=>"/" , "Contact"=>"/contact"}%>
-		<nav>
+	<%links = {"Home"=>"/", "Glasses" => "/glasses", "Contact"=>"/contact"}%>
+	<header>	
+		
+		<div id="logo">
+			<h1>Frames For Dames</h1>
+		</div>
+		<nav id="nav">
 			<ul>
 				<%for key, value in links do%>
 
@@ -17,20 +25,14 @@
 
 			</ul>
 		</nav>
-<footer>
-	<form method="post" action="/contact">
-	<div>
-	<label for="email">
-	<strong>Sign up to receive special offers</strong>
-	</label>
-	<
-		
-	</form>
-</footer>
 
 	<%=yield%>
+	<footer>   
+		<a href="www.facebook.com"><img src="images/facebook-wrap.png" alt="Facebooklogo" class="social-icon"></a>
+      <a href="http://twitter.com"><img src="images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+      <p><b>&copy; 2015, Frames For Dames</b></p>
 
+	</footer>
 
-	
 </body>
 </html>
