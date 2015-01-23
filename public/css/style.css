@@ -190,12 +190,11 @@ footer{
 footer{
   text-align:center;
   clear: both;
-<<<<<<< HEAD
+
   height:50px;
  
-=======
-  height: 50px;
->>>>>>> dd74c5517ae01f253ae5df47e224a067ba50b246
+
+  
 }
 
 /********IMG GALLERY********/
@@ -235,5 +234,12 @@ footer{
 
 }
 
+.price{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#dd6666;;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 
