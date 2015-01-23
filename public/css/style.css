@@ -37,14 +37,14 @@ nav ul li{
  
 }
 
-#logo{
+#logo {
   float: left;
   font-family: 'Abril Fatface', cursive;
   color: #fff;
   letter-spacing: 4px;
   border-bottom:2px dotted white;
-  
 }
+
 
 #logo h1{
     margin-bottom: 0px;
