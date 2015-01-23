@@ -122,10 +122,6 @@ footer{
   text-align: center;
   clear: both;
   height: 50px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-bottom: 20px;
 }
 
 /********IMG GALLERY********/
@@ -147,6 +143,9 @@ footer{
     /*overflow:auto;*/
     margin-right: auto;
     margin-left: auto;
+    height: 800px;
+    margin-bottom: 60px;
+
 }
 
 
