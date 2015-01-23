@@ -8,7 +8,6 @@ nav{
   margin-top: 20px;
 
 }
-<<<<<<< HEAD
 nav li a{
   color: #000;
   font-size: 25px;
@@ -22,9 +21,6 @@ nav li a{
   transition: all 0.2s ease-in-out;
 }
 nav li a:hover{
-=======
-/*nav li a:hover{
->>>>>>> 175e2dc5ad469fad05fb76b78fabba03452d0e54
   color: #FF9900;
   background-color: #333;
   
@@ -32,7 +28,7 @@ nav li a:hover{
   -webkit-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
   transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
   z-index: 1000;
-}*/
+}
 
 a {
   text-decoration: none;
@@ -131,7 +127,6 @@ header{
   line-height: 25px;
  }
 
-<<<<<<< HEAD
 form {
   width: 50%;
   margin: 10% auto;
@@ -183,18 +178,12 @@ input[name=question] {
 * {
   box-sizing: border-box;
 }
-footer{
-=======
 /*******FOOTER******/
 
 footer{
   text-align:center;
   clear: both;
-
-  height:50px;
- 
-
-  
+  height:50px; 
 }
 
 /********IMG GALLERY********/
@@ -203,7 +192,6 @@ footer{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
   margin-top: 45px;
->>>>>>> 175e2dc5ad469fad05fb76b78fabba03452d0e54
   text-align: center;
   clear: both;
 
