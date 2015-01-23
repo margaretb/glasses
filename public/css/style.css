@@ -37,14 +37,14 @@ nav ul li{
  
 }
 
-#logo{
+#logo {
   float: left;
   font-family: 'Abril Fatface', cursive;
   color: #fff;
   letter-spacing: 4px;
   border-bottom:2px dotted white;
-  
 }
+
 
 #logo h1{
     margin-bottom: 0px;
@@ -87,11 +87,32 @@ header{
 
 /*******FOOTER******/
 
-
-
 footer{
   text-align: center;
-
+  clear: all;
+  height: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 20px;
 }
+
+/********IMG GALLERY********/
+
+.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+#gallery {
+    width: 50%;
+    overflow:auto;
+    margin:0 auto;
+}
+
 
 
