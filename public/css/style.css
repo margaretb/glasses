@@ -63,6 +63,11 @@ header{
   text-align: center;
   height:400px;
 }
+#cat_image {
+ opacity:0;
+  width:5%;
+  /*display:none;*/
+}
 
 
 #our_story{
@@ -72,7 +77,7 @@ header{
 }
  
  #our_story h2{
-color:#886666;
+    color:#dd6666;
  }
 
  #our_story p{
