@@ -145,6 +145,9 @@ input, textarea {
     width: auto;
     float: right;
   }
+  a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
+}
 
   &::placeholder {
     color: darken(#f9f9f9, 50%);
