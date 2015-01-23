@@ -89,4 +89,25 @@ footer{
 
 }
 
+/********IMG GALLERY********/
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+}
+
+div.img img {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
 
