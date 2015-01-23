@@ -8,15 +8,6 @@ nav{
   margin-top: 20px;
 
 }
-/*nav li a:hover{
-  color: #FF9900;
-  background-color: #333;
-  
-  -moz-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
-  -webkit-transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
-  transform: rotate(45deg) translate(0px) scale(1.1) skew(7deg,7deg);
-  z-index: 1000;
-}*/
 
 a {
   text-decoration: none;
@@ -153,10 +144,8 @@ footer{
     margin-top:35px;
     width: 75%;
     margin-right: auto;
-    margin-left: auto;
-    
+    margin-left: auto;   
     padding-bottom:30px;
-
     height: 800px;
     margin-bottom: 60px;
 
